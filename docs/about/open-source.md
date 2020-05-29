@@ -18,6 +18,7 @@ The previous tools are used in the generation of our documentation, but are not 
     - [dejavusanscode] ([dejavusanscode license] - multiple open licenses)
     - [opensans] ([opensans license] - Apache 2.0)
     - [qt] ([qt license] - LGPLv3 / note, please see our [qt build instructions below](open-source.md#building-qt))
+    - [libxcb] ([libxcb license] - MIT)
     - [sourcecodepro] ([sourcecodepro license] - SIL open font license)
     - [rlcompleter] ([python license] - Python Software Foundation License 2)
 
@@ -113,3 +114,5 @@ Please note that we offer no support for running Binary Ninja with modified Qt l
 [zlib]: http://www.zlib.net/
 [jemalloc]: https://github.com/jemalloc/jemalloc
 [jemalloc license]: https://github.com/jemalloc/jemalloc/blob/master/COPYING
+[libxcb]: https://gitlab.freedesktop.org/xorg/lib/libxcb
+[libxcb license]: https://gitlab.freedesktop.org/xorg/lib/libxcb/-/blob/master/COPYING
