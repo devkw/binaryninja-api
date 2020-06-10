@@ -168,7 +168,7 @@ class DownloadProvider(with_metaclass(_DownloadProviderMetaclass, object)):
 		return DownloadInstance(self, handle = result)
 
 
-if (sys.platform != "win32") and (sys.version_info >= (2, 7, 9)):
+if ((sys.platform == "win32") and (sys.version_info.major >= 3)) or (sys.version_info >= (2, 7, 9)):
 	try:
 		from urllib.request import urlopen, build_opener, install_opener, ProxyHandler
 		from urllib.error import URLError
